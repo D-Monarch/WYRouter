@@ -1,6 +1,7 @@
 # WYRouter
-
-
+[![Pod]()]()
+[![Version]()]()
+[![Platform]()]()
 [![License](https://img.shields.io/github/license/D-Monarch/WYRouter)](https://github.com/D-Monarch/WYRouter/blob/master/LICENSE)
 
 ## Example
