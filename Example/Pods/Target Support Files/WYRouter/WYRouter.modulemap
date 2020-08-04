@@ -1,0 +1,6 @@
+framework module WYRouter {
+  umbrella header "WYRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}

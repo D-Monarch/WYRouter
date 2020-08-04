@@ -1,0 +1,6 @@
+framework module Pods_WYRouter_Example {
+  umbrella header "Pods-WYRouter_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
