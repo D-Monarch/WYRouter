@@ -1,5 +1,5 @@
 # WYRouter
-[![Pod](https://img.shields.io/badge/Pod-1.0.0-green)](https://github.com/D-Monarch/WYRouter)
+[![Pod](https://img.shields.io/badge/Pod-V1.0.0-blue)](https://github.com/D-Monarch/WYRouter)
 [![Platform](https://img.shields.io/github/license/D-Monarch/WYRouter?color=lightGray&label=Platform&message=iOS)](https://github.com/D-Monarch/WYRouter)
 [![License](https://img.shields.io/github/license/D-Monarch/WYRouter)](https://github.com/D-Monarch/WYRouter/blob/master/LICENSE)
 
