@@ -1,9 +1,9 @@
 # WYRouter
 
 [![CI Status](https://img.shields.io/travis/htu_wang@163.com/WYRouter.svg?style=flat)](https://travis-ci.org/htu_wang@163.com/WYRouter)
-[![Version](https://img.shields.io/cocoapods/v/WYRouter.svg?style=flat)](https://cocoapods.org/pods/WYRouter)
-[![License](https://img.shields.io/cocoapods/l/WYRouter.svg?style=flat)](https://github.com/D-Monarch/WYRouter/blob/master/LICENSE)
-[![Platform](https://img.shields.io/static/v1?label=Platform&message=iOS&color=yellow)](https://cocoapods.org/pods/WYRouter)
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=orange)](https://cocoapods.org/pods/WYRouter)
+[![License](https://img.shields.io/static/v1?label=License&message=MIT&color=red)](https://github.com/D-Monarch/WYRouter/blob/master/LICENSE)
+[![Platform](https://img.shields.io/static/v1?label=Platform&message=iOS&color=yellow)](https://github.com/D-Monarch/WYRouter)
 
 ## Example
 
