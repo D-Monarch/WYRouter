@@ -43,17 +43,38 @@ Routing callback processing
     return YES;
 }
 
-- (BOOL)handleOpenDeepLink:(NSURL *)url {
+
+- (BOOL)application:(UIApplication *)app
+            openURL:(NSURL *)url
+            options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
     
-   return [[WYRouter shareInstance] handleWithURLString:url.absoluteString complete:nil];
+    return [self handleOpenURL:url];
+}
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation{
+    
+    return [self handleOpenURL:url];
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    
+   return [self handleOpenURL:url];
 }
 
 - (BOOL)handleOpenURL:(NSURL *)url {
     
-   if ([url.scheme isEqualToString:[LBRouter shareInstance].scheme]) {
+   if ([url.scheme isEqualToString:[WYRouter shareInstance].scheme]) {
        return [self handleOpenDeepLink:url];
     }
     return NO;
+}
+
+- (BOOL)handleOpenDeepLink:(NSURL *)url {
+    
+   return [[WYRouter shareInstance] handleWithURLString:url.absoluteString complete:nil];
 }
 ```
 
