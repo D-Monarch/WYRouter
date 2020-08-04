@@ -92,8 +92,8 @@ Routing callback processing
 ## Supported routing structures
 
 1、https://www.baidu.com   
-2、wyy://carDetail/:carId/:carType                 parameters：deepLink.routeParameters  
-3、wyy://carDetail?carId=string&carType=int        parameters：deepLink.queryParameters  
+2、wyy://carDetail/:carId/:carType                 (parameters：deepLink.routeParameters)  
+3、wyy://carDetail?carId=string&carType=int        (parameters：deepLink.queryParameters)  
 
 
 ## Author
