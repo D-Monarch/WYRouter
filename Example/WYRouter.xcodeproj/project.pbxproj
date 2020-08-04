@@ -23,6 +23,15 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		78C9B767C501B6D7D7B0972B /* Pods_WYRouter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2152B56FA41C178968ED962C /* Pods_WYRouter_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B0183E0324D9438200B1CB72 /* WYAppDelegate+DeepLink.m in Sources */ = {isa = PBXBuildFile; fileRef = B0183E0224D9438200B1CB72 /* WYAppDelegate+DeepLink.m */; };
+		B0183E0924D9440B00B1CB72 /* WYRouterBaseHandler+Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = B0183E0824D9440B00B1CB72 /* WYRouterBaseHandler+Authentication.m */; };
+		B0183E0B24D9442900B1CB72 /* RouteConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = B0183E0A24D9442900B1CB72 /* RouteConfig.json */; };
+		B0183E1424D944B100B1CB72 /* FirstRouterHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B0183E0C24D944B000B1CB72 /* FirstRouterHandler.m */; };
+		B0183E1524D944B100B1CB72 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0183E0D24D944B000B1CB72 /* SecondViewController.m */; };
+		B0183E1624D944B100B1CB72 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0183E0F24D944B000B1CB72 /* FirstViewController.m */; };
+		B0183E1724D944B100B1CB72 /* SecondHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B0183E1224D944B100B1CB72 /* SecondHandler.m */; };
+		B0183E1C24D944DD00B1CB72 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0183E1824D944DC00B1CB72 /* WebViewController.m */; };
+		B0183E1D24D944DD00B1CB72 /* WebRounterHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B0183E1A24D944DC00B1CB72 /* WebRounterHandler.m */; };
 		C5C0230FA1395DBE8950FF1C /* Pods_WYRouter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148B42EC661F246E96A3089B /* Pods_WYRouter_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +75,23 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A16C8394B8C860A4EBDE7296 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B0183E0124D9438200B1CB72 /* WYAppDelegate+DeepLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WYAppDelegate+DeepLink.h"; sourceTree = "<group>"; };
+		B0183E0224D9438200B1CB72 /* WYAppDelegate+DeepLink.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WYAppDelegate+DeepLink.m"; sourceTree = "<group>"; };
+		B0183E0724D9440B00B1CB72 /* WYRouterBaseHandler+Authentication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WYRouterBaseHandler+Authentication.h"; sourceTree = "<group>"; };
+		B0183E0824D9440B00B1CB72 /* WYRouterBaseHandler+Authentication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WYRouterBaseHandler+Authentication.m"; sourceTree = "<group>"; };
+		B0183E0A24D9442900B1CB72 /* RouteConfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RouteConfig.json; sourceTree = "<group>"; };
+		B0183E0C24D944B000B1CB72 /* FirstRouterHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstRouterHandler.m; sourceTree = "<group>"; };
+		B0183E0D24D944B000B1CB72 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B0183E0E24D944B000B1CB72 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B0183E0F24D944B000B1CB72 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B0183E1024D944B100B1CB72 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B0183E1124D944B100B1CB72 /* FirstRouterHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstRouterHandler.h; sourceTree = "<group>"; };
+		B0183E1224D944B100B1CB72 /* SecondHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondHandler.m; sourceTree = "<group>"; };
+		B0183E1324D944B100B1CB72 /* SecondHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondHandler.h; sourceTree = "<group>"; };
+		B0183E1824D944DC00B1CB72 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		B0183E1924D944DC00B1CB72 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		B0183E1A24D944DC00B1CB72 /* WebRounterHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebRounterHandler.m; sourceTree = "<group>"; };
+		B0183E1B24D944DC00B1CB72 /* WebRounterHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebRounterHandler.h; sourceTree = "<group>"; };
 		EE6598C869F315F4CF98494D /* Pods-WYRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYRouter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WYRouter_Tests/Pods-WYRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,9 +163,25 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* WYViewController.h */,
 				6003F5A6195388D20070C39A /* WYViewController.m */,
+				B0183E1124D944B100B1CB72 /* FirstRouterHandler.h */,
+				B0183E0C24D944B000B1CB72 /* FirstRouterHandler.m */,
+				B0183E1024D944B100B1CB72 /* FirstViewController.h */,
+				B0183E0F24D944B000B1CB72 /* FirstViewController.m */,
+				B0183E1324D944B100B1CB72 /* SecondHandler.h */,
+				B0183E1224D944B100B1CB72 /* SecondHandler.m */,
+				B0183E0E24D944B000B1CB72 /* SecondViewController.h */,
+				B0183E0D24D944B000B1CB72 /* SecondViewController.m */,
+				B0183E1B24D944DC00B1CB72 /* WebRounterHandler.h */,
+				B0183E1A24D944DC00B1CB72 /* WebRounterHandler.m */,
+				B0183E1924D944DC00B1CB72 /* WebViewController.h */,
+				B0183E1824D944DC00B1CB72 /* WebViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				B0183E0124D9438200B1CB72 /* WYAppDelegate+DeepLink.h */,
+				B0183E0224D9438200B1CB72 /* WYAppDelegate+DeepLink.m */,
+				B0183E0724D9440B00B1CB72 /* WYRouterBaseHandler+Authentication.h */,
+				B0183E0824D9440B00B1CB72 /* WYRouterBaseHandler+Authentication.m */,
 			);
 			name = "Example for WYRouter";
 			path = WYRouter;
@@ -152,6 +194,7 @@
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
 				6003F59B195388D20070C39A /* WYRouter-Prefix.pch */,
+				B0183E0A24D9442900B1CB72 /* RouteConfig.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -279,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				B0183E0B24D9442900B1CB72 /* RouteConfig.json in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -387,9 +431,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0183E1D24D944DD00B1CB72 /* WebRounterHandler.m in Sources */,
+				B0183E0924D9440B00B1CB72 /* WYRouterBaseHandler+Authentication.m in Sources */,
+				B0183E1C24D944DD00B1CB72 /* WebViewController.m in Sources */,
 				6003F59E195388D20070C39A /* WYAppDelegate.m in Sources */,
+				B0183E1424D944B100B1CB72 /* FirstRouterHandler.m in Sources */,
+				B0183E1524D944B100B1CB72 /* SecondViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* WYViewController.m in Sources */,
+				B0183E0324D9438200B1CB72 /* WYAppDelegate+DeepLink.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				B0183E1724D944B100B1CB72 /* SecondHandler.m in Sources */,
+				B0183E1624D944B100B1CB72 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +572,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WYRouter/WYRouter-Prefix.pch";
 				INFOPLIST_FILE = "WYRouter/WYRouter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -536,6 +589,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WYRouter/WYRouter-Prefix.pch";
 				INFOPLIST_FILE = "WYRouter/WYRouter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

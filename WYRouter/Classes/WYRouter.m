@@ -115,10 +115,12 @@
         return NO;
     }
     NSURL *url = [self urlWithString:urlString];
-    if ([url.scheme containsString:@"http://"] || [url.scheme containsString:@"https://"]) {
+    if ([@[@"http", @"https"] containsObject:url.scheme]) {
         
+        NSString *urlStr = [url.absoluteString stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]] ?: @"";
+
        return [self handleWithModuleId:kWebModuleId
-                                params:@{@"url" : url.absoluteString}
+                                params:@{@"url" : urlStr}
                               complete:complete];
 
     } else if ([url.scheme isEqualToString:_scheme]) {

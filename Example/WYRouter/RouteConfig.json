@@ -1,0 +1,28 @@
+{
+    "version" : "1.0",
+    "modules" : [
+        {
+            "moduleId" : "WebViewControllerModule",
+            "moduleName" : "web页面",
+            "handlerClassName" : "WebRounterHandler",
+            "routes" : [
+            ]
+        },
+        {
+            "moduleId" : "SecondViewController",
+            "moduleName" : "2",
+            "handlerClassName" : "SecondHandler",
+            "routes" : [
+                "wyy://auction/carDetail/:carId/:auctionType/:auctionId"
+            ]
+        },
+        {
+            "moduleId" : "FirstViewController",
+            "moduleName" : "1",
+            "handlerClassName" : "FirstRouterHandler",
+            "routes" : [
+                "wyy://auction/carDetail?carId=int&auctionType=int&auctionId=int"
+            ]
+        }
+    ]
+}
