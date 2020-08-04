@@ -72,8 +72,8 @@ Routing callback processing
 ```
 
 
-## Registry structure（json file）
-、、、
+## Registry structure
+``` Json
 {
     "version" : "1.0",
     "modules" : [
@@ -86,7 +86,7 @@ Routing callback processing
         }
     ]
 }
-、、、
+```
  
 ## Supported routing structures
 1、https://www.baidu.com 
