@@ -73,6 +73,22 @@ Routing callback processing
 ```
 
 
+##Registry structure
+、、、
+{
+    "version" : "1.0",
+    "modules" : [
+        {
+            "moduleId" : "WebViewModule",
+            "moduleName" : "web页面",
+            "handlerClassName" : "WebRounterHandler",
+            "routes" : [
+            ]
+        }
+    ]
+}
+、、、
+
 ## Author
 
 htu_wang@163.com, wangyaoyao@lionbridgecapital.cn
