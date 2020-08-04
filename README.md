@@ -1,7 +1,7 @@
 # WYRouter
 [![Pod]()](https://github.com/D-Monarch/WYRouter)
-[![Version](https://img.shields.io/github/license/D-Monarch/WYRouter?color=yellow&label=Version)](https://github.com/D-Monarch/WYRouter)
-[![Platform](https://img.shields.io/github/license/D-Monarch/WYRouter?color=lightGray&label=Platform)](https://github.com/D-Monarch/WYRouter)
+[![Version](https://img.shields.io/github/license/D-Monarch/WYRouter?color=yellow&label=Version&message=1.0.0)](https://github.com/D-Monarch/WYRouter)
+[![Platform](https://img.shields.io/github/license/D-Monarch/WYRouter?color=lightGray&label=Platform&message=iOS)](https://github.com/D-Monarch/WYRouter)
 [![License](https://img.shields.io/github/license/D-Monarch/WYRouter)](https://github.com/D-Monarch/WYRouter/blob/master/LICENSE)
 
 ## Example
