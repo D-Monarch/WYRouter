@@ -1,6 +1,6 @@
 # WYRouter
 
-[![CI Status](https://img.shields.io/static/v1?label=WYRouter CI&message=failing&color=red)](https://github.com/D-Monarch/WYRouter)
+[![Build Status](http://img.shields.io/travis/WYRouter/WYRouter/master.svg?style=flat)](https://github.com/D-Monarch/WYRouter)
 [![Pod Version](http://img.shields.io/cocoapods/v/WYRouter.svg?style=flat)](https://github.com/D-Monarch/WYRouter)
 [![Version](https://img.shields.io/static/v1?label=Version&message=V1.0.0&color=orange)](https://github.com/D-Monarch/WYRouter)
 [![License](https://img.shields.io/static/v1?label=License&message=MIT&color=yellow)](https://github.com/D-Monarch/WYRouter/blob/master/LICENSE)
