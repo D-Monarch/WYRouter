@@ -2,7 +2,7 @@
 
 [![Pod Version](http://img.shields.io/cocoapods/v/WYRouter.svg?style=flat)](https://github.com/D-Monarch/WYRouter)
 [![Version](https://img.shields.io/static/v1?label=Version&message=V1.0.0&color=orange)](https://github.com/D-Monarch/WYRouter)
-[![License](https://img.shields.io/github/license/D-Monarch/WYRouter)](https://github.com/D-Monarch/WYRouter/blob/master/LICENSE)
+[![License](https://img.shields.io/static/v1?label=Version&message=V1.0.0&color=yellow)](https://github.com/D-Monarch/WYRouter/blob/master/LICENSE)
 [![Platform](https://img.shields.io/static/v1?label=Platform&message=iOS&color=gray)](https://github.com/D-Monarch/WYRouter)
 
 ## Example
