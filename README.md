@@ -10,15 +10,53 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+iOS 8.0 or later
+
 
 ## Installation
 
-WYRouter is available through [CocoaPods](https://cocoapods.org). To install
+LBRouter is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'WYRouter'
+pod 'LBRouter'
 ```
+
+## How To Use 
+
+The LBRouter needs to be registered when the program starts
+
+```Object-C
++ (void)configRouteWithScheme:(NSString *)scheme fileName:(NSString *)fileName;
+```
+
+
+Routing callback processing
+
+```Object-C
+- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray<id<UIUserActivityRestoring>> * _Nullable))restorationHandler {
+    
+    // NSUserActivityTypeBrowsingWeb 由Universal Links唤醒的APP
+    if ([userActivity.activityType isEqualToString:NSUserActivityTypeBrowsingWeb]) {
+        [self handleOpenDeepLink:userActivity.webpageURL];
+    }
+    return YES;
+}
+
+- (BOOL)handleOpenDeepLink:(NSURL *)url {
+    
+   return [[LBRouter shareInstance] handleWithURLString:url.absoluteString complete:nil];
+}
+
+- (BOOL)handleOpenURL:(NSURL *)url {
+    
+   if ([url.scheme isEqualToString:[LBRouter shareInstance].scheme]) {
+       return [self handleOpenDeepLink:url];
+    }
+    return NO;
+}
+```
+
 
 ## Author
 
