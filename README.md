@@ -19,12 +19,12 @@ LBRouter is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'LBRouter'
+pod 'WYRouter'
 ```
 
 ## How To Use 
 
-The LBRouter needs to be registered when the program starts
+The WYRouter needs to be registered when the program starts
 
 ```Object-C
 + (void)configRouteWithScheme:(NSString *)scheme fileName:(NSString *)fileName;
@@ -45,7 +45,7 @@ Routing callback processing
 
 - (BOOL)handleOpenDeepLink:(NSURL *)url {
     
-   return [[LBRouter shareInstance] handleWithURLString:url.absoluteString complete:nil];
+   return [[WYRouter shareInstance] handleWithURLString:url.absoluteString complete:nil];
 }
 
 - (BOOL)handleOpenURL:(NSURL *)url {
