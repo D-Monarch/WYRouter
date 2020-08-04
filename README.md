@@ -38,7 +38,7 @@ Routing callback processing
     
     // NSUserActivityTypeBrowsingWeb 由Universal Links唤醒的APP
     if ([userActivity.activityType isEqualToString:NSUserActivityTypeBrowsingWeb]) {
-        [self handleOpenDeepLink:userActivity.webpageURL];
+        [[WYRouter shareInstance] handleWithURLString:userActivity.webpageURL.absoluteString complete:nil];
     }
     return YES;
 }
@@ -67,15 +67,11 @@ Routing callback processing
 - (BOOL)handleOpenURL:(NSURL *)url {
     
    if ([url.scheme isEqualToString:[WYRouter shareInstance].scheme]) {
-       return [self handleOpenDeepLink:url];
-    }
-    return NO;
+        return [[WYRouter shareInstance] handleWithURLString:url.absoluteString complete:nil];
+   }
+   return NO;
 }
 
-- (BOOL)handleOpenDeepLink:(NSURL *)url {
-    
-   return [[WYRouter shareInstance] handleWithURLString:url.absoluteString complete:nil];
-}
 ```
 
 
