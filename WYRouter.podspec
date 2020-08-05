@@ -41,7 +41,7 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   
   
-  s.dependency 'DeepLinkKit', '~>1.6.0'
+  s.dependency 'DeepLinkKit','~>1.6.1'
   s.dependency 'JSONModel', '~> 1.8.0'
   
 end

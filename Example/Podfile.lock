@@ -1,5 +1,5 @@
 PODS:
-  - DeepLinkKit (1.6.0)
+  - DeepLinkKit (1.6.1)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -7,7 +7,7 @@ PODS:
     - FBSnapshotTestCase/Core
   - JSONModel (1.8.0)
   - WYRouter (1.1.0):
-    - DeepLinkKit (~> 1.6.0)
+    - DeepLinkKit (~> 1.6.1)
     - JSONModel (~> 1.8.0)
 
 DEPENDENCIES:
@@ -26,11 +26,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DeepLinkKit: b8c28534e2e207106998844ac90b7411035fb65a
+  DeepLinkKit: ba774806810786fb27c33d8c53ad8a3c4eefbe53
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
-  WYRouter: 7bd953a00e576dcc6d4e7eafece68681315a97c3
+  WYRouter: 861717b69e4dfd15d7a411621a785a3a0aa0fb7d
 
-PODFILE CHECKSUM: f41a5ff6937b32c30510866eb3cea8562dc90580
+PODFILE CHECKSUM: bcf1b6695df3333fbfbe0b50736ba9bf23801d88
 
 COCOAPODS: 1.8.4
