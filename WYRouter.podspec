@@ -42,6 +42,6 @@ TODO: Add long description of the pod here.
   
   
   s.dependency 'DeepLinkKit', '~>1.6.0'
-  s.dependency 'JSONModel', "~> 1.8.0"
+  s.dependency 'JSONModel', '~> 1.8.0'
   
 end
