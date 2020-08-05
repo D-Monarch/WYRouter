@@ -172,7 +172,9 @@
         UIViewController <DPLTargetViewController> *targetViewController = [routeHandler targetViewController];
         
         if (targetViewController) {
-            [targetViewController configureWithDeepLink:deepLink];
+            if ([targetViewController conformsToProtocol:@protocol(DPLTargetViewController)]) {
+                [targetViewController configureWithDeepLink:deepLink];
+            }
             [routeHandler presentTargetViewController:targetViewController inViewController:presentingViewController];
         }
         else {

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WYRouter'
-  s.version          = '1.0.1'
+  s.version          = '1.1.0'
   s.summary          = 'RouterComponent'
 
 # This description is used to generate tags and improve search results.
@@ -41,7 +41,7 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   
   
-  s.dependency 'DeepLinkKit', "~> 1.5.1"
+  s.dependency 'DeepLinkKit', '~>1.6.0'
   s.dependency 'JSONModel', "~> 1.8.0"
   
 end
