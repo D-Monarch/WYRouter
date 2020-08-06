@@ -1,7 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/D-Monarch/wyspecs.git'
-source 'https://github.com/D-Monarch/DeepLinkKit.git'
-
 use_frameworks!
 
 platform :ios, '8.0'

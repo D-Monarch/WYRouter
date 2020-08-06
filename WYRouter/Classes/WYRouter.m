@@ -8,7 +8,7 @@
 
 #import "WYRouter.h"
 #import "WYModuleModel.h"
-#import <DeepLinkKit/DeepLinkKit.h>
+#import "DeepLinkKit/DeepLinkKit.h"
 
 @interface WYRouter ()
 /** 路由 */

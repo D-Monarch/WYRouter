@@ -20,11 +20,11 @@
   },
   "source_files": "WYRouter/Classes/**/*",
   "dependencies": {
-    "DeepLinkKit": [
-      "~>1.6.1"
-    ],
     "JSONModel": [
       "~> 1.8.0"
+    ],
+    "DeepLinkKit": [
+      "~>1.6.1"
     ]
   }
 }

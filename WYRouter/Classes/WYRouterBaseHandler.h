@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <DeepLinkKit/DeepLinkKit.h>
+#import "DeepLinkKit/DeepLinkKit.h"
+
 
 NS_ASSUME_NONNULL_BEGIN
 
