@@ -6,7 +6,7 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - JSONModel (1.8.0)
-  - WYRouter (1.2.2):
+  - WYRouter (1.2.3):
     - DeepLinkKit (~> 1.6.4)
     - JSONModel (~> 1.8.0)
 
@@ -29,7 +29,7 @@ SPEC CHECKSUMS:
   DeepLinkKit: 2ba7304cf5baa5623dc22a933466a873121a7098
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
-  WYRouter: 77a8fec6c54a93b7a4aca80e9424d5e741ba277f
+  WYRouter: dd0c904dbb8d1e6b43fab89a46382c198da57097
 
 PODFILE CHECKSUM: acf0c0d1a7f040b1290a242487b79e4b94b03b06
 

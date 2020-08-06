@@ -289,6 +289,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "htu_wang@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 2M3U4G7GUF;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -527,6 +530,7 @@
 			baseConfigurationReference = 63D951C4D9247CB3E60CB518 /* Pods-WYRouter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2M3U4G7GUF;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WYRouter/WYRouter-Prefix.pch";
 				INFOPLIST_FILE = "WYRouter/WYRouter-Info.plist";
@@ -545,6 +549,7 @@
 			baseConfigurationReference = 2013B1826F66FF09EE344142 /* Pods-WYRouter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2M3U4G7GUF;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WYRouter/WYRouter-Prefix.pch";
 				INFOPLIST_FILE = "WYRouter/WYRouter-Info.plist";
