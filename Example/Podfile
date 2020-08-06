@@ -1,8 +1,9 @@
 source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/D-Monarch/wyspecs.git'
-use_frameworks!
 
-platform :ios, '8.0'
+#use_frameworks!
+
+platform :ios, '9.0'
 
 target 'WYRouter_Example' do
   pod 'WYRouter', :path => '../'

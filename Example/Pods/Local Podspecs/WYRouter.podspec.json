@@ -1,7 +1,7 @@
 {
   "name": "WYRouter",
-  "version": "1.1.0",
-  "summary": "RouterComponent",
+  "version": "1.2.0",
+  "summary": "router component",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/D-Monarch/WYRouter",
   "license": {
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/D-Monarch/WYRouter.git",
-    "tag": "1.1.0"
+    "tag": "1.2.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "WYRouter/Classes/**/*",
   "dependencies": {
@@ -24,7 +24,7 @@
       "~> 1.8.0"
     ],
     "DeepLinkKit": [
-      "~>1.6.1"
+      "~>1.6.2"
     ]
   }
 }
