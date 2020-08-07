@@ -47,20 +47,24 @@
 - (void)btnClick {
     
     [[WYRouter shareInstance] handleWithModuleId:kWebModuleId
-                                          params:@{@"url" : @"https://www.baidu.com"}
+                                          params:@{@"url" : @"https://www.baidu.com/旺旺"}
                                         complete:nil];
+    
 }
 
 - (void)btnClick1 {
+//    [[WYRouter shareInstance] handleWithModuleId:@"SecondViewController"
+//                                          params:@{@"name" : @"旺旺"}
+//                                        complete:nil];
     
-    NSString *urlString = @"wyy://auction/carDetail/12124123/1/12312312";
+    NSString *urlString = @"wyy://auction/carDetail/12124123/1/12312312/旺旺";
     [[WYRouter shareInstance] handleWithURLString:urlString complete:nil];
 }
 
 
 - (void)btnClick2 {
     
-    NSString *urlString = @"wyy://auction/carDetail?carId=12124123&auctionType=1&auctionId=12312312";
+    NSString *urlString = @"wyy://auction/carDetail?carId=12124123&auctionType=1&name=旺旺";
     [[WYRouter shareInstance] handleWithURLString:urlString complete:nil];
 }
 

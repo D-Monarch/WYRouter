@@ -974,6 +974,31 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		276B483C417BD013E2B9C4870D7ACFD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 083D70A6C6C88CE6B152DFC74A06641F /* DeepLinkKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DeepLinkKit/DeepLinkKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DeepLinkKit;
+				PRODUCT_NAME = DeepLinkKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		2C54E9D790E0B874B7ADD206B7F4DAEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2CA78A34CC827EBEA2730D2070F456E7 /* JSONModel.xcconfig */;
@@ -1047,7 +1072,7 @@
 			};
 			name = Release;
 		};
-		6D5228F7B3FA6650190F18145D12507A /* Release */ = {
+		7552351D4D0B5D32FEADDE4D1514DF6D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 38CF7A99E9FE980182DED976710E9DB8 /* WYRouter.xcconfig */;
 			buildSettings = {
@@ -1056,7 +1081,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/WYRouter/WYRouter-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -1071,30 +1096,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		81D8EE395E172761DAFDA1BDF89BE551 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38CF7A99E9FE980182DED976710E9DB8 /* WYRouter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/WYRouter/WYRouter-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = WYRouter;
-				PRODUCT_NAME = WYRouter;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		83C6B13B45EC601024463331A2C1A2A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1245,7 +1246,7 @@
 			};
 			name = Debug;
 		};
-		97CF6768B94EA69E8CE254D2D9C8FFE4 /* Release */ = {
+		93BF62B8571EA56FE8EBBF0A9A57E1A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 083D70A6C6C88CE6B152DFC74A06641F /* DeepLinkKit.xcconfig */;
 			buildSettings = {
@@ -1254,7 +1255,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/DeepLinkKit/DeepLinkKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -1266,9 +1267,8 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		B077F4BF157EB87E1189EF2234E05230 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1285,6 +1285,30 @@
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = JSONModel;
 				PRODUCT_NAME = JSONModel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB4E386B0C35D6A579C4D42BC278FA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38CF7A99E9FE980182DED976710E9DB8 /* WYRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WYRouter/WYRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WYRouter;
+				PRODUCT_NAME = WYRouter;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1334,30 +1358,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F95D16932EE63C2FB72D5D82DEDF3EDE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 083D70A6C6C88CE6B152DFC74A06641F /* DeepLinkKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/DeepLinkKit/DeepLinkKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = DeepLinkKit;
-				PRODUCT_NAME = DeepLinkKit;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1426,8 +1426,8 @@
 		7C07CFB9DDFE7C093BC4271682B82BB2 /* Build configuration list for PBXNativeTarget "DeepLinkKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F95D16932EE63C2FB72D5D82DEDF3EDE /* Debug */,
-				97CF6768B94EA69E8CE254D2D9C8FFE4 /* Release */,
+				93BF62B8571EA56FE8EBBF0A9A57E1A5 /* Debug */,
+				276B483C417BD013E2B9C4870D7ACFD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1444,8 +1444,8 @@
 		F68FAFC33B1FCB7BD5D15CD96037F3CE /* Build configuration list for PBXNativeTarget "WYRouter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81D8EE395E172761DAFDA1BDF89BE551 /* Debug */,
-				6D5228F7B3FA6650190F18145D12507A /* Release */,
+				DB4E386B0C35D6A579C4D42BC278FA99 /* Debug */,
+				7552351D4D0B5D32FEADDE4D1514DF6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

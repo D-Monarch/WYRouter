@@ -13,7 +13,7 @@
             "moduleName" : "2",
             "handlerClassName" : "SecondHandler",
             "routes" : [
-                "wyy://auction/carDetail/:carId/:auctionType/:auctionId"
+                "wyy://auction/carDetail/:carId/:auctionType/:auctionId/:name"
             ]
         },
         {
@@ -21,7 +21,7 @@
             "moduleName" : "1",
             "handlerClassName" : "FirstRouterHandler",
             "routes" : [
-                "wyy://auction/carDetail?carId=int&auctionType=int&auctionId=int"
+                "wyy://auction/carDetail?carId=int&auctionType=int&name=string"
             ]
         }
     ]
