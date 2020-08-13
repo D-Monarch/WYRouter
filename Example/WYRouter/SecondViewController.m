@@ -25,6 +25,11 @@
     NSLog(@"%@", deepLink.routeParameters);
 }
 
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [[WYRouter shareInstance] handleSelWithMoudleId:@"SecondViewController" selector:@"test:" params:@"aaaa" complete:nil];
+}
+
 /*
 #pragma mark - Navigation
 

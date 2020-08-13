@@ -48,6 +48,16 @@ NS_ASSUME_NONNULL_BEGIN
                    complete:(nullable void(^)(BOOL handled, NSError *error))complete;
 
 
+
+/// Execute the callback method
+/// @param moduleId moudle id
+/// @param selector method
+/// @param params params
+/// @param complete complete block
+- (BOOL)handleSelWithMoudleId:(NSString *)moduleId
+                     selector:(NSString *)selector
+                       params:(NSDictionary *)params
+                     complete:(void(^)(BOOL handled, NSError *error))complete;
 @end
 
 NS_ASSUME_NONNULL_END

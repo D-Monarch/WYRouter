@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "DeepLinkKit/DeepLinkKit.h"
+#import <DeepLinkKit/DeepLinkKit.h>
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -34,6 +34,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// Whether permission authentication is required（Login permission）
 - (BOOL)requirePermissionAuthentication;
+
+- (NSArray *)performSelector;
+
 
 @end
 

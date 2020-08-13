@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		004E6B7FCC026B35201C8EE7617B2398 /* WYRouteConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7651673F0ED970A50775CB7C27B7E0 /* WYRouteConfig.m */; };
 		088CE421BA6D7515042FBB3C061FF25E /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B0C6D27B16BEB31A558F4F30D13631 /* JSONModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0978FEF1E925744EEAF7E76217BF4A86 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5DCF497C0944F3CD2259AE0E2DC4A3 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0C465A43ED8A5912FE043594FADB18F5 /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2439CF9221CC6DD6115DE84FED17721E /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -21,10 +20,10 @@
 		2900570747A2EC866F12B6644BE4DDB8 /* DPLRegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8803E90F87C5E51D9C6195B1732E11 /* DPLRegularExpression.m */; };
 		29DA64B0607D351C05FA2CFD4865C201 /* DPLMutableDeepLink+AppLinks.h in Headers */ = {isa = PBXBuildFile; fileRef = 098357616024A5E79E25FC0A1C28CE9E /* DPLMutableDeepLink+AppLinks.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2C2944AEF323592174AB38810D3A4DF5 /* DPLMutableDeepLink+AppLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5981DFA7175F7B2EAB0697221C25F983 /* DPLMutableDeepLink+AppLinks.m */; };
+		2D18BE3BBBC7B0DCC31C9AB183FA17E5 /* WYRouterBaseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 7922CF7EBC713318B11235E0B24346EA /* WYRouterBaseHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2D556FEC22E7CF69C8FCF75DF18B2294 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A17531C18BE5252B910825DCC3CFF34 /* JSONHTTPClient.m */; };
 		2D575DBA02F869BF9233FB462251AC0D /* DPLDeepLinkRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A05FA17A6AA5E98B3A3AFCD572879C /* DPLDeepLinkRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2DF30536D05CC492D5E7C423CD67BEF2 /* DPLMutableDeepLink.h in Headers */ = {isa = PBXBuildFile; fileRef = E7C0D393B357D53A0E75758FA5E668B6 /* DPLMutableDeepLink.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3BF74024BCFA2FC17503F930B2BA66C8 /* WYRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DFAB1464AE4443F8E56F3C46DB74C9A /* WYRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3CA841B798A019C06DF25E6881DFAA35 /* DPLDeepLink_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5994057C9D52FB9F527B22A6046A3D /* DPLDeepLink_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4045A77134966260330937500785E2C8 /* DPLDeepLink.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0827CD4367204E6A643B4A7339920C /* DPLDeepLink.m */; };
 		407D8755C1A672747380D108C91A5E15 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 228962FA6517CDBDFF396ECE1986C9B1 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -32,22 +31,24 @@
 		447C8274528369CD86D9B01731128581 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 388223BBFDB4D4B78D1A7F5B1E1AE0EF /* JSONModelError.m */; };
 		4F39FC2B70EDFF998DCCD505281FE8E5 /* NSObject+DPLJSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A9382D608440B2B3268CB187385F35E4 /* NSObject+DPLJSONObject.m */; };
 		50544CC39838135DDBF0047A180E97F4 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A41CDAA63FF90B02E7A3800474FC351 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		51BC50E5479C62004B50004AF4BEA23D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BD866EAF7832D915A224437A74AD90 /* ReplaceMe.m */; };
 		53EEB33768ACEB01F11B58912FE7511E /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DEEB44CE9EB6C667B2C1CD8433EBE5 /* JSONModelClassProperty.m */; };
 		55BDF877FF7B6D85CBAF06B5AF0291FC /* DPLMatchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = AFCD4A7ADF4314BF206A3A81C3F3FAD1 /* DPLMatchResult.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55C32D2A4A6DCF0F50811F528D64D572 /* WYRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A22095EC874D18DDDF5E2AEC47A66E /* WYRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5693A08347C5CFEBCEBAA2AED5FADEE1 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC0B1328AF22D420D7535B588693428 /* FBSnapshotTestCasePlatform.m */; };
 		5B5F1C307429407ABC5745A3E05F6F0E /* DPLDeepLinkRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 356341F40B092B2B1D70A80D67A205D4 /* DPLDeepLinkRouter.m */; };
+		5D39F9ABF063B67C939B719E2F4EBAD8 /* DPLDeepLinkRouter+LBHandleSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = BEE71F87CD3AD64759A1B31D2EABBAAF /* DPLDeepLinkRouter+LBHandleSelector.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5E28F1AF2000DF1EDDDBCBFA06068708 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = DC576E7F51C9A7F730D85F10A5CE240C /* JSONModel+networking.m */; };
 		5F6B84BED681BBEF668034DC92A18762 /* DPLDeepLink.h in Headers */ = {isa = PBXBuildFile; fileRef = C0476EC1068E4F6C2B81A55F90544158 /* DPLDeepLink.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5FEBB4D0572A8806CE183D90CFD07794 /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E7B52226F1264E081D48F162110AEB2 /* JSONModelClassProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		60A81314C7F4D48CC37E5ADC316573C2 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21423C6DE409507278EFDEF54DEE0F46 /* JSONModel.m */; };
-		62D8F03723C81B8D833A2E93AFD2000A /* WYRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D0872C7CBE96A12BF5230D5DEF7B846 /* WYRoute.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		64CA97554F693BFA2260C00CE4AD0600 /* WYRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EEB88D41EDA3B938289921BA1963AB /* WYRouter-dummy.m */; };
 		652944596CAB123E95713C913A556E21 /* DPLMatchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = F49336763C288C78E60F07433E850F9D /* DPLMatchResult.m */; };
 		660019866613653E3308F0099D578A86 /* NSString+DPLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 66668017EE45D007244E5708EAB4F464 /* NSString+DPLQuery.m */; };
 		6DD0627D6C0759B32D98AF4721E2B333 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2CCAE9BD2BFEBFCD6DF998EB6C6C12 /* JSONKeyMapper.m */; };
 		6E59C8606C8404F0FE35C43D2571487D /* NSObject+DPLJSONObject.h in Headers */ = {isa = PBXBuildFile; fileRef = CFAFB96484B0401661D7F5F26F697453 /* NSObject+DPLJSONObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6EA8BA83AF7B84EAC24AA2517533C005 /* AppLinks.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B31A5E391D138038BAC5D1162B8D27 /* AppLinks.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7065A6F5D3BF1165484CC5A60E9CB12D /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 73063B52747F48B29272007E752CB884 /* JSONValueTransformer.m */; };
+		721ED7D9D4F775A6103453F2DFF8CE8E /* WYRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B09A88265F7BAF9B90ADE4345F4B4F38 /* WYRouter-dummy.m */; };
 		770C6BA01A6ABA9444AEC378EC293094 /* DeepLinkKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFCBA7952CCD6BD2B97DCEA4C09F520 /* DeepLinkKit-dummy.m */; };
 		77963FF7EE2C6BF810466A85D700811E /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57C29B40B44A732EA41CD7D107A90D9 /* FBSnapshotTestController.m */; };
 		7FC1E440F462E519FCEFBCAF0FB8A6C3 /* NSString+DPLTrim.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CCC03867247FF1EFFBC60CE6C3D160F /* NSString+DPLTrim.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -55,54 +56,48 @@
 		87D6F8413A7B375C836E57CCAD550A7F /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931D9014B0FC78BD192EB177DDC8BE8A /* SwiftSupport.swift */; };
 		88EFB177D7E421C1C112B2854E81430E /* DPLErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 63183456D0F46CC731759157F369A516 /* DPLErrors.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8C0B5EBDF83DDC66A416370F936B9A00 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = D7D43C73B4BA1E1D20F2BE8416B0ACD9 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F15CC0686CB1FD0F10DA37EE9E1F0A8 /* DPLDeepLinkRouter+LBHandleSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B04E038BEC263F4805BB2E8F2F80A0A /* DPLDeepLinkRouter+LBHandleSelector.m */; };
 		900A66A1398E8542620495C195C5FA16 /* DeepLinkKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC454BD7441543A2D5B55D9EA0C9AAC /* DeepLinkKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		90CF6DB76D0915CCB46D82A865C9C1C7 /* WYModuleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FF6CA6A6DBA98CE4EC58EF89C292731C /* WYModuleModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		958955B3A7B25BFF49D84C1F2CD0581F /* Pods-WYRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF21D32D89BDE76E2C9D4CCC459A245 /* Pods-WYRouter_Tests-dummy.m */; };
-		9DDCA052D735FF85CF7549C7F9CE843F /* WYRouteConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9828E0E9DD5CABE6547B1ED7985B2B77 /* WYRouteConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9FC34354315E07B982DA84C6339128C1 /* DPLSerializable.h in Headers */ = {isa = PBXBuildFile; fileRef = C4435B58337DC5CD063359D36115A7BD /* DPLSerializable.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A1F0BDA9D5073D7469B79451FD7F2C0D /* DPLRouteMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 484EDE173DD7E4BEF113290FB7FB5DA9 /* DPLRouteMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A457A948F248D2A52CD05F067B0C1367 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = CB88C5B2EBAC7C2B53445ECD1A8165BE /* UIImage+Compare.m */; };
-		A647FF5789EB1B632268689B34CBF63A /* WYModuleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EBD8AA2662BDEDAA04BBB7569D9624 /* WYModuleModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AB3570007412B510F78B81D1A83E7FC9 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C374DA8E815E17109ABE830EC06263C8 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B192B39F3B60E0C966F59EFEEFE8E97D /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 2019EB5943B0DA654A4ED215551B0D2D /* JSONModelLib.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B2C0489EAEED635EB33FAFA4185EBC1E /* UINavigationController+DPLRouting.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DB795CEF04A2E14455DBE4CBA4998AE /* UINavigationController+DPLRouting.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B52FFA245F2E6912412B0BADDA646A81 /* Pods-WYRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB44D1CEEA54BDDBCC5DCDD39727180 /* Pods-WYRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B5E8F505D14625F51831C6C3FD1B5837 /* WYModuleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 64341F557C2BCADC31B98BD0FF34BE1A /* WYModuleModel.m */; };
+		B5F7AC37DA43B9086BA1854549155F8D /* WYRouteConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A46C954774A1430139FD883642D92442 /* WYRouteConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B6011004DB7D81AD8C191C326D4064BF /* WYRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA4A56C41C8A4789CC2FFFCE210FE91 /* WYRouter.m */; };
 		B8ADA30C051A2790FE88BE07CBFFF592 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = D695828A59801B098A4548C2696FACB5 /* UIImage+Diff.m */; };
 		BA2020D1AAD92B4C3316B5DFFCA4AF4E /* NSString+DPLTrim.m in Sources */ = {isa = PBXBuildFile; fileRef = F9058825FE9B90BB82C04C50282BF969 /* NSString+DPLTrim.m */; };
-		C0B96A9042D281613F9901ED68C83ED5 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA439D82AEE6510D1C824CA53592208 /* ReplaceMe.m */; };
 		C190A7F4671A2635F6768468B67D1BF6 /* DPLDeepLink+AppLinks.h in Headers */ = {isa = PBXBuildFile; fileRef = D770E6616D83BA22EEFD2B8CBAF975EE /* DPLDeepLink+AppLinks.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C227FD1C858148327AD6CF45F9BC35E4 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A85D006CD5C689B62A0CE22DC9A52CF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C3CA256CC5C3308862AFF3218B47B684 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B7DBB67B8345A48B2952AE4DD5A8B13 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C58715D5FA8F30DA3A1A0D28BD669803 /* WYModuleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD73EB4D0C1E9CF35CAFE55B33CB9AC /* WYModuleModel.m */; };
+		C6B63697232018AE03F20A95B5F630B6 /* WYRouterBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B156B9474BBDD72B1F028768B3A79AB /* WYRouterBaseHandler.m */; };
 		CBD39660A2AEA338F8D2CE18BEBECEF9 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = E6398445975D418456264D37127BF192 /* UIImage+Snapshot.m */; };
 		D5FAA5ED25EAEE61F6476D63E0CA9894 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FB6392F16941E924A11860D883BAC /* FBSnapshotTestCase-dummy.m */; };
 		D607E281B6103D213C2295CE59CC6658 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB358AAF800C15AEBED18A8724BFF7C /* FBSnapshotTestCase.m */; };
+		DB439F55294D1BFEB81D43482534F4CF /* WYRouteConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0369C599070136A04F83FF7C5A7802A7 /* WYRouteConfig.m */; };
 		DD4401CF97187F7F019458827A4D8C82 /* DPLRouteHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D6E393AB92677430C03C3204EA7258 /* DPLRouteHandler.m */; };
 		DFCC4B46B40A53AB8E6581F951F33389 /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F936DDFF0CFE8FCCC9BA92E3316C09 /* JSONAPI.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E3EEB104AE6F1B6ECEC7ED559BBFD35B /* WYRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 75916B81DB3E4DE010A488BC4E4DC97B /* WYRoute.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E42AE228A8A5BFC537BA840B60B8F1E3 /* DPLMutableDeepLink.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C71551ECEFCE5A60F9473A023DF0B9 /* DPLMutableDeepLink.m */; };
 		E5217B41672FA6B5F28F9F6557C5B7EB /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EA1BCEF9F21B3D540C42104696B6B51 /* JSONModelError.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E6B6F693A2353EF1E6C5FE537BE66EB9 /* WYRouterBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DA21029AF4EDE9CAF289E7E1E5CE7A /* WYRouterBaseHandler.m */; };
 		EF7F1DA9A9200160FBFB5684882005D1 /* NSString+DPLQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 748138CC4BD99F4493B6B836DEA6C346 /* NSString+DPLQuery.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EFA45E70CD6224C8B68738ED9E97CA21 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = DF22A15A1383FFA2565DC1BDAC33C2E9 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F1815C590E5C93B3A9FEF4A5B7B098F9 /* DPLRouteHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF80157201EF6EAE761B15931CFE069 /* DPLRouteHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F2DF4FC8393B9F98106B7C0A984813E9 /* WYRouterBaseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 415510AC4C2D87201DF0B7A5A06F328E /* WYRouterBaseHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F5547F4FB6F7D6958C255FF704C40960 /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F49FBB2A21F80E8B249EFE7E03F139B /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F6BEC03752B97824ECDC12425485E634 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = DD445FBCD5CC73CB7F7FD6D52F47247E /* JSONAPI.m */; };
 		F77131864115BA6658CDE171308500C3 /* DPLDeepLink+AppLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F3ECEF4D3C0BA44D29A2B221CF142 /* DPLDeepLink+AppLinks.m */; };
 		F876F054886227B059B0778C6C1A0A83 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B0DDCAC42B5341A8751C7F3F905347 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F8A384CD7A976687DC4FF73468FD90B9 /* DeepLinkKit_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 052184C400D0E8A28D160968D82930A0 /* DeepLinkKit_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FA53EE9DED86B19CCA0A600503CA5521 /* WYRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C6EB16D1AC9C950E75507BA2BC21A4 /* WYRouter.m */; };
 		FA8E709EDB7A5A4E8C3B7FEA98662773 /* JSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F590DAECF75273D8482001F30652665A /* JSONModel-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		0B51027977CA30839A285078D03987D6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7EC5DFAB79138B1C6559E1A2E2B96764;
-			remoteInfo = DeepLinkKit;
-		};
-		5714165479C97A9F90CB88A44D0BDC12 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -123,12 +118,26 @@
 			remoteGlobalIDString = F8F83441349BC7C4BB7C9691FC9EDE26;
 			remoteInfo = "Pods-WYRouter_Example";
 		};
+		69BBDA62BF619A39D8AD303975DEBEA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EC5DFAB79138B1C6559E1A2E2B96764;
+			remoteInfo = DeepLinkKit;
+		};
 		797DC091595C494E4361D6FD1B618008 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1E05DDE589DDDD21BD5FE9E29C853577;
 			remoteInfo = WYRouter;
+		};
+		7D5DE5B8039EB9EA6D75CDD8F690DCA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0EAF4371C6E4B30A1779D513CB4355B;
+			remoteInfo = JSONModel;
 		};
 		DD6C5A016F09D102E74B4593817E6CC0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -137,18 +146,11 @@
 			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		F5A5F71DD774DFAE795CC789E72C13DE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E0EAF4371C6E4B30A1779D513CB4355B;
-			remoteInfo = JSONModel;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01CDF2E148A1FA25D9ED16170FF71DBE /* libDeepLinkKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDeepLinkKit.a; path = libDeepLinkKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		01DA21029AF4EDE9CAF289E7E1E5CE7A /* WYRouterBaseHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYRouterBaseHandler.m; path = WYRouter/Classes/WYRouterBaseHandler.m; sourceTree = "<group>"; };
+		0369C599070136A04F83FF7C5A7802A7 /* WYRouteConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYRouteConfig.m; path = WYRouter/Classes/WYRouteConfig.m; sourceTree = "<group>"; };
 		052184C400D0E8A28D160968D82930A0 /* DeepLinkKit_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeepLinkKit_Private.h; path = DeepLinkKit/DeepLinkKit_Private.h; sourceTree = "<group>"; };
 		083D70A6C6C88CE6B152DFC74A06641F /* DeepLinkKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeepLinkKit.xcconfig; sourceTree = "<group>"; };
 		098357616024A5E79E25FC0A1C28CE9E /* DPLMutableDeepLink+AppLinks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DPLMutableDeepLink+AppLinks.h"; path = "DeepLinkKit/DeepLink/DPLMutableDeepLink+AppLinks.h"; sourceTree = "<group>"; };
@@ -157,9 +159,6 @@
 		0EA1BCEF9F21B3D540C42104696B6B51 /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
 		118A5DD463E97BF8C9155B613A270F2E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		128884804759B078F79F50D748E03852 /* Pods-WYRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYRouter_Example-dummy.m"; sourceTree = "<group>"; };
-		16EEB88D41EDA3B938289921BA1963AB /* WYRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYRouter-dummy.m"; sourceTree = "<group>"; };
-		1A0D19A228D11D224DD208D4BF9D4329 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		1D0872C7CBE96A12BF5230D5DEF7B846 /* WYRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYRoute.h; path = WYRouter/Classes/WYRoute.h; sourceTree = "<group>"; };
 		1DA08A057F35DB40FD9492C24493A2E9 /* Pods-WYRouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYRouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1DA72FE23013F018D6820B88CA5A44A6 /* DPLRouteMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DPLRouteMatcher.m; path = DeepLinkKit/RouteMatcher/DPLRouteMatcher.m; sourceTree = "<group>"; };
 		2019EB5943B0DA654A4ED215551B0D2D /* JSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
@@ -174,15 +173,15 @@
 		356341F40B092B2B1D70A80D67A205D4 /* DPLDeepLinkRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DPLDeepLinkRouter.m; path = DeepLinkKit/Router/DPLDeepLinkRouter.m; sourceTree = "<group>"; };
 		374C545E54A7CEE8AEE8426F5AD366EE /* libPods-WYRouter_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WYRouter_Example.a"; path = "libPods-WYRouter_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		388223BBFDB4D4B78D1A7F5B1E1AE0EF /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
-		38CF7A99E9FE980182DED976710E9DB8 /* WYRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYRouter.xcconfig; sourceTree = "<group>"; };
 		3A3EB266DCBC8531FE895487719CF760 /* Pods-WYRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3B4DAA2853ECE52BAC16DB65AB194380 /* WYRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYRouter.xcconfig; sourceTree = "<group>"; };
 		3CCC03867247FF1EFFBC60CE6C3D160F /* NSString+DPLTrim.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DPLTrim.h"; path = "DeepLinkKit/Categories/NSString+DPLTrim.h"; sourceTree = "<group>"; };
 		3DB795CEF04A2E14455DBE4CBA4998AE /* UINavigationController+DPLRouting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+DPLRouting.h"; path = "DeepLinkKit/Categories/UINavigationController+DPLRouting.h"; sourceTree = "<group>"; };
-		415510AC4C2D87201DF0B7A5A06F328E /* WYRouterBaseHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYRouterBaseHandler.h; path = WYRouter/Classes/WYRouterBaseHandler.h; sourceTree = "<group>"; };
+		42BD866EAF7832D915A224437A74AD90 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WYRouter/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		42DEEB44CE9EB6C667B2C1CD8433EBE5 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
-		46EBD8AA2662BDEDAA04BBB7569D9624 /* WYModuleModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYModuleModel.h; path = WYRouter/Classes/WYModuleModel.h; sourceTree = "<group>"; };
 		484EDE173DD7E4BEF113290FB7FB5DA9 /* DPLRouteMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPLRouteMatcher.h; path = DeepLinkKit/RouteMatcher/DPLRouteMatcher.h; sourceTree = "<group>"; };
 		49B31A5E391D138038BAC5D1162B8D27 /* AppLinks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppLinks.h; path = DeepLinkKit/AppLinks.h; sourceTree = "<group>"; };
+		4B04E038BEC263F4805BB2E8F2F80A0A /* DPLDeepLinkRouter+LBHandleSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DPLDeepLinkRouter+LBHandleSelector.m"; path = "WYRouter/Classes/DPLDeepLinkRouter+LBHandleSelector.m"; sourceTree = "<group>"; };
 		4B23BAF36E7CAD88CC8FB4039A087F0E /* DeepLinkKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeepLinkKit-prefix.pch"; sourceTree = "<group>"; };
 		4B7DBB67B8345A48B2952AE4DD5A8B13 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		4D0F3ECEF4D3C0BA44D29A2B221CF142 /* DPLDeepLink+AppLinks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DPLDeepLink+AppLinks.m"; path = "DeepLinkKit/DeepLink/DPLDeepLink+AppLinks.m"; sourceTree = "<group>"; };
@@ -193,58 +192,60 @@
 		5A85D006CD5C689B62A0CE22DC9A52CF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* libFBSnapshotTestCase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFBSnapshotTestCase.a; path = libFBSnapshotTestCase.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		63183456D0F46CC731759157F369A516 /* DPLErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPLErrors.h; path = DeepLinkKit/Errors/DPLErrors.h; sourceTree = "<group>"; };
-		64341F557C2BCADC31B98BD0FF34BE1A /* WYModuleModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYModuleModel.m; path = WYRouter/Classes/WYModuleModel.m; sourceTree = "<group>"; };
+		65A22095EC874D18DDDF5E2AEC47A66E /* WYRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYRouter.h; path = WYRouter/Classes/WYRouter.h; sourceTree = "<group>"; };
 		66668017EE45D007244E5708EAB4F464 /* NSString+DPLQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DPLQuery.m"; path = "DeepLinkKit/Categories/NSString+DPLQuery.m"; sourceTree = "<group>"; };
 		69F481E13CD3401706B02AE2746DBB55 /* Pods-WYRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		726E9361FF05D8514B778B2871E76BCA /* NSString+DPLJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DPLJSON.m"; path = "DeepLinkKit/Categories/NSString+DPLJSON.m"; sourceTree = "<group>"; };
 		73063B52747F48B29272007E752CB884 /* JSONValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
 		748138CC4BD99F4493B6B836DEA6C346 /* NSString+DPLQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DPLQuery.h"; path = "DeepLinkKit/Categories/NSString+DPLQuery.h"; sourceTree = "<group>"; };
+		75916B81DB3E4DE010A488BC4E4DC97B /* WYRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYRoute.h; path = WYRouter/Classes/WYRoute.h; sourceTree = "<group>"; };
 		76ECF16FEF4186B12A5AD971EBEBD7A5 /* DPLRegularExpression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPLRegularExpression.h; path = DeepLinkKit/Regex/DPLRegularExpression.h; sourceTree = "<group>"; };
+		7922CF7EBC713318B11235E0B24346EA /* WYRouterBaseHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYRouterBaseHandler.h; path = WYRouter/Classes/WYRouterBaseHandler.h; sourceTree = "<group>"; };
 		7A053AF597E54E1ECFBD552C0D61A074 /* Pods-WYRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7A41CDAA63FF90B02E7A3800474FC351 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		7B156B9474BBDD72B1F028768B3A79AB /* WYRouterBaseHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYRouterBaseHandler.m; path = WYRouter/Classes/WYRouterBaseHandler.m; sourceTree = "<group>"; };
 		7BC0B1328AF22D420D7535B588693428 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		7E7B52226F1264E081D48F162110AEB2 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
 		7F49FBB2A21F80E8B249EFE7E03F139B /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
 		7F5994057C9D52FB9F527B22A6046A3D /* DPLDeepLink_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPLDeepLink_Private.h; path = DeepLinkKit/DeepLink/DPLDeepLink_Private.h; sourceTree = "<group>"; };
+		811ADD9D360343E9D372B84917BA1170 /* WYRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WYRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		85D8A6839288DDCD46DC8F8837675F68 /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
+		91FD3884CC00B2EED105B27FCBA42599 /* WYRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYRouter-prefix.pch"; sourceTree = "<group>"; };
 		931D9014B0FC78BD192EB177DDC8BE8A /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		94FC8AEF76989B498E4E2657DCEB31CA /* libWYRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWYRouter.a; path = libWYRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9828E0E9DD5CABE6547B1ED7985B2B77 /* WYRouteConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYRouteConfig.h; path = WYRouter/Classes/WYRouteConfig.h; sourceTree = "<group>"; };
 		9A17531C18BE5252B910825DCC3CFF34 /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
 		9AC454BD7441543A2D5B55D9EA0C9AAC /* DeepLinkKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeepLinkKit.h; path = DeepLinkKit/DeepLinkKit.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DE83DC2CB57072B79E3E2A53002AA7A /* Pods-WYRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9DFAB1464AE4443F8E56F3C46DB74C9A /* WYRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYRouter.h; path = WYRouter/Classes/WYRouter.h; sourceTree = "<group>"; };
 		A3DCF875F10731164E6E2B382D66D862 /* libPods-WYRouter_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WYRouter_Tests.a"; path = "libPods-WYRouter_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A776A0385CBA7381FD00852F13682A52 /* WYRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYRouter-prefix.pch"; sourceTree = "<group>"; };
+		A46C954774A1430139FD883642D92442 /* WYRouteConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYRouteConfig.h; path = WYRouter/Classes/WYRouteConfig.h; sourceTree = "<group>"; };
 		A9382D608440B2B3268CB187385F35E4 /* NSObject+DPLJSONObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+DPLJSONObject.m"; path = "DeepLinkKit/Categories/NSObject+DPLJSONObject.m"; sourceTree = "<group>"; };
 		A98AAC0E3151035EB8C84A70EE0D9D72 /* UINavigationController+DPLRouting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+DPLRouting.m"; path = "DeepLinkKit/Categories/UINavigationController+DPLRouting.m"; sourceTree = "<group>"; };
-		AAA439D82AEE6510D1C824CA53592208 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WYRouter/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		ABB358AAF800C15AEBED18A8724BFF7C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		AD5DCF497C0944F3CD2259AE0E2DC4A3 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		AEF80157201EF6EAE761B15931CFE069 /* DPLRouteHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPLRouteHandler.h; path = DeepLinkKit/RouteHandler/DPLRouteHandler.h; sourceTree = "<group>"; };
 		AFCD4A7ADF4314BF206A3A81C3F3FAD1 /* DPLMatchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPLMatchResult.h; path = DeepLinkKit/Regex/DPLMatchResult.h; sourceTree = "<group>"; };
+		B09A88265F7BAF9B90ADE4345F4B4F38 /* WYRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYRouter-dummy.m"; sourceTree = "<group>"; };
 		B122061A763DCA037D854C7F7686F31F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		B1A05FA17A6AA5E98B3A3AFCD572879C /* DPLDeepLinkRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPLDeepLinkRouter.h; path = DeepLinkKit/Router/DPLDeepLinkRouter.h; sourceTree = "<group>"; };
-		B40CBDAD3E8FE409B1D955D6AB504269 /* WYRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WYRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B57C29B40B44A732EA41CD7D107A90D9 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		B672F79BC007E7E7F2D18C6A89E0B60E /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		B9D6E393AB92677430C03C3204EA7258 /* DPLRouteHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DPLRouteHandler.m; path = DeepLinkKit/RouteHandler/DPLRouteHandler.m; sourceTree = "<group>"; };
 		BAACA1BF7AB3DD28402C4F9A7C2FD104 /* libJSONModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJSONModel.a; path = libJSONModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE71F87CD3AD64759A1B31D2EABBAAF /* DPLDeepLinkRouter+LBHandleSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DPLDeepLinkRouter+LBHandleSelector.h"; path = "WYRouter/Classes/DPLDeepLinkRouter+LBHandleSelector.h"; sourceTree = "<group>"; };
 		C0476EC1068E4F6C2B81A55F90544158 /* DPLDeepLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPLDeepLink.h; path = DeepLinkKit/DeepLink/DPLDeepLink.h; sourceTree = "<group>"; };
 		C374DA8E815E17109ABE830EC06263C8 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		C4435B58337DC5CD063359D36115A7BD /* DPLSerializable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPLSerializable.h; path = DeepLinkKit/Protocols/DPLSerializable.h; sourceTree = "<group>"; };
+		C6121FD43A6866D49EE958D03BDD4C8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CB8803E90F87C5E51D9C6195B1732E11 /* DPLRegularExpression.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DPLRegularExpression.m; path = DeepLinkKit/Regex/DPLRegularExpression.m; sourceTree = "<group>"; };
 		CB88C5B2EBAC7C2B53445ECD1A8165BE /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		CD490F5A24F97A6054F34B0E6ED8E8E0 /* Pods-WYRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CFAFB96484B0401661D7F5F26F697453 /* NSObject+DPLJSONObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+DPLJSONObject.h"; path = "DeepLinkKit/Categories/NSObject+DPLJSONObject.h"; sourceTree = "<group>"; };
-		D04DB5EA48CC346B3FF404AE31CF677B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D0C6EB16D1AC9C950E75507BA2BC21A4 /* WYRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYRouter.m; path = WYRouter/Classes/WYRouter.m; sourceTree = "<group>"; };
+		CFD73EB4D0C1E9CF35CAFE55B33CB9AC /* WYModuleModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYModuleModel.m; path = WYRouter/Classes/WYModuleModel.m; sourceTree = "<group>"; };
 		D2BD597C7D02CA9BDF567DAB628013EC /* Pods-WYRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D695828A59801B098A4548C2696FACB5 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		D770E6616D83BA22EEFD2B8CBAF975EE /* DPLDeepLink+AppLinks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DPLDeepLink+AppLinks.h"; path = "DeepLinkKit/DeepLink/DPLDeepLink+AppLinks.h"; sourceTree = "<group>"; };
 		D7D43C73B4BA1E1D20F2BE8416B0ACD9 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		DA7651673F0ED970A50775CB7C27B7E0 /* WYRouteConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYRouteConfig.m; path = WYRouter/Classes/WYRouteConfig.m; sourceTree = "<group>"; };
 		DC576E7F51C9A7F730D85F10A5CE240C /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
 		DD445FBCD5CC73CB7F7FD6D52F47247E /* JSONAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
 		DF22A15A1383FFA2565DC1BDAC33C2E9 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
@@ -252,6 +253,8 @@
 		E1C71551ECEFCE5A60F9473A023DF0B9 /* DPLMutableDeepLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DPLMutableDeepLink.m; path = DeepLinkKit/DeepLink/DPLMutableDeepLink.m; sourceTree = "<group>"; };
 		E6398445975D418456264D37127BF192 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		E7C0D393B357D53A0E75758FA5E668B6 /* DPLMutableDeepLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPLMutableDeepLink.h; path = DeepLinkKit/DeepLink/DPLMutableDeepLink.h; sourceTree = "<group>"; };
+		EB4C2D44A24370E6B6A41DAAA79F68E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EBA4A56C41C8A4789CC2FFFCE210FE91 /* WYRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYRouter.m; path = WYRouter/Classes/WYRouter.m; sourceTree = "<group>"; };
 		EE0827CD4367204E6A643B4A7339920C /* DPLDeepLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DPLDeepLink.m; path = DeepLinkKit/DeepLink/DPLDeepLink.m; sourceTree = "<group>"; };
 		EFB44D1CEEA54BDDBCC5DCDD39727180 /* Pods-WYRouter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYRouter_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F49336763C288C78E60F07433E850F9D /* DPLMatchResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DPLMatchResult.m; path = DeepLinkKit/Regex/DPLMatchResult.m; sourceTree = "<group>"; };
@@ -260,6 +263,7 @@
 		F7F936DDFF0CFE8FCCC9BA92E3316C09 /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
 		F9058825FE9B90BB82C04C50282BF969 /* NSString+DPLTrim.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DPLTrim.m"; path = "DeepLinkKit/Categories/NSString+DPLTrim.m"; sourceTree = "<group>"; };
 		FE87AD6082226749DB8005138C827C97 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		FF6CA6A6DBA98CE4EC58EF89C292731C /* WYModuleModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYModuleModel.h; path = WYRouter/Classes/WYModuleModel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,7 +288,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2934B6D9C9D921307183CC6ED0CFD577 /* Frameworks */ = {
+		491223955F39B025C14CF6CBF39B9009 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -308,12 +312,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08E82F2815DD58C1C9BBBC14FB9CF3DB /* Pod */ = {
+		0366999FCDDF125DF21AB4C0BEBC7AA8 /* WYRouter */ = {
 			isa = PBXGroup;
 			children = (
-				D04DB5EA48CC346B3FF404AE31CF677B /* LICENSE */,
-				1A0D19A228D11D224DD208D4BF9D4329 /* README.md */,
-				B40CBDAD3E8FE409B1D955D6AB504269 /* WYRouter.podspec */,
+				BEE71F87CD3AD64759A1B31D2EABBAAF /* DPLDeepLinkRouter+LBHandleSelector.h */,
+				4B04E038BEC263F4805BB2E8F2F80A0A /* DPLDeepLinkRouter+LBHandleSelector.m */,
+				42BD866EAF7832D915A224437A74AD90 /* ReplaceMe.m */,
+				FF6CA6A6DBA98CE4EC58EF89C292731C /* WYModuleModel.h */,
+				CFD73EB4D0C1E9CF35CAFE55B33CB9AC /* WYModuleModel.m */,
+				75916B81DB3E4DE010A488BC4E4DC97B /* WYRoute.h */,
+				A46C954774A1430139FD883642D92442 /* WYRouteConfig.h */,
+				0369C599070136A04F83FF7C5A7802A7 /* WYRouteConfig.m */,
+				65A22095EC874D18DDDF5E2AEC47A66E /* WYRouter.h */,
+				EBA4A56C41C8A4789CC2FFFCE210FE91 /* WYRouter.m */,
+				7922CF7EBC713318B11235E0B24346EA /* WYRouterBaseHandler.h */,
+				7B156B9474BBDD72B1F028768B3A79AB /* WYRouterBaseHandler.m */,
+				1E5ADD206568610AB7D33F074A363848 /* Pod */,
+				0809F16BF55A99BC9D9A13FE29D4DAA9 /* Support Files */,
+			);
+			name = WYRouter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0809F16BF55A99BC9D9A13FE29D4DAA9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DAA2853ECE52BAC16DB65AB194380 /* WYRouter.xcconfig */,
+				B09A88265F7BAF9B90ADE4345F4B4F38 /* WYRouter-dummy.m */,
+				91FD3884CC00B2EED105B27FCBA42599 /* WYRouter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WYRouter";
+			sourceTree = "<group>";
+		};
+		1E5ADD206568610AB7D33F074A363848 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EB4C2D44A24370E6B6A41DAAA79F68E3 /* LICENSE */,
+				C6121FD43A6866D49EE958D03BDD4C8B /* README.md */,
+				811ADD9D360343E9D372B84917BA1170 /* WYRouter.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -349,6 +386,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		59BA62F8D9F37DABC55D145BF8074A7E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0366999FCDDF125DF21AB4C0BEBC7AA8 /* WYRouter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		74FF5E34E857E664C9B1AD6F16566E20 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -360,17 +405,6 @@
 			path = "../Target Support Files/DeepLinkKit";
 			sourceTree = "<group>";
 		};
-		755C1CE667947579E6C3E85D2C45221E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				38CF7A99E9FE980182DED976710E9DB8 /* WYRouter.xcconfig */,
-				16EEB88D41EDA3B938289921BA1963AB /* WYRouter-dummy.m */,
-				A776A0385CBA7381FD00852F13682A52 /* WYRouter-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WYRouter";
-			sourceTree = "<group>";
-		};
 		7CCA87D09AED47C04C5803DCD37F1A7E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -379,34 +413,6 @@
 				D5D8690BAF5B5E5BE82BA6C8B36E5A53 /* JSONModel */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		7D7224F06AB0775DDB28BA77D6D61467 /* WYRouter */ = {
-			isa = PBXGroup;
-			children = (
-				AAA439D82AEE6510D1C824CA53592208 /* ReplaceMe.m */,
-				46EBD8AA2662BDEDAA04BBB7569D9624 /* WYModuleModel.h */,
-				64341F557C2BCADC31B98BD0FF34BE1A /* WYModuleModel.m */,
-				1D0872C7CBE96A12BF5230D5DEF7B846 /* WYRoute.h */,
-				9828E0E9DD5CABE6547B1ED7985B2B77 /* WYRouteConfig.h */,
-				DA7651673F0ED970A50775CB7C27B7E0 /* WYRouteConfig.m */,
-				9DFAB1464AE4443F8E56F3C46DB74C9A /* WYRouter.h */,
-				D0C6EB16D1AC9C950E75507BA2BC21A4 /* WYRouter.m */,
-				415510AC4C2D87201DF0B7A5A06F328E /* WYRouterBaseHandler.h */,
-				01DA21029AF4EDE9CAF289E7E1E5CE7A /* WYRouterBaseHandler.m */,
-				08E82F2815DD58C1C9BBBC14FB9CF3DB /* Pod */,
-				755C1CE667947579E6C3E85D2C45221E /* Support Files */,
-			);
-			name = WYRouter;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		86D9E9FB521D886865A50ADC1A5608F5 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7D7224F06AB0775DDB28BA77D6D61467 /* WYRouter */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		86EFC5EB144A4029365BD4D07A3609D3 /* DeepLinkKit */ = {
@@ -527,7 +533,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				86D9E9FB521D886865A50ADC1A5608F5 /* Development Pods */,
+				59BA62F8D9F37DABC55D145BF8074A7E /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				7CCA87D09AED47C04C5803DCD37F1A7E /* Pods */,
 				BEDA19F62671B569576DD7296DA61984 /* Products */,
@@ -612,23 +618,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0DDA5A01CC3C1CE0704D2B2A3EA2CA3F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A647FF5789EB1B632268689B34CBF63A /* WYModuleModel.h in Headers */,
-				62D8F03723C81B8D833A2E93AFD2000A /* WYRoute.h in Headers */,
-				9DDCA052D735FF85CF7549C7F9CE843F /* WYRouteConfig.h in Headers */,
-				3BF74024BCFA2FC17503F930B2BA66C8 /* WYRouter.h in Headers */,
-				F2DF4FC8393B9F98106B7C0A984813E9 /* WYRouterBaseHandler.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		51079EBD9D8DB3C59A1CE8BBCF6F8898 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B52FFA245F2E6912412B0BADDA646A81 /* Pods-WYRouter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B21C89A647596F1DBE0B78AF149AAB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D39F9ABF063B67C939B719E2F4EBAD8 /* DPLDeepLinkRouter+LBHandleSelector.h in Headers */,
+				90CF6DB76D0915CCB46D82A865C9C1C7 /* WYModuleModel.h in Headers */,
+				E3EEB104AE6F1B6ECEC7ED559BBFD35B /* WYRoute.h in Headers */,
+				B5F7AC37DA43B9086BA1854549155F8D /* WYRouteConfig.h in Headers */,
+				55C32D2A4A6DCF0F50811F528D64D572 /* WYRouter.h in Headers */,
+				2D18BE3BBBC7B0DCC31C9AB183FA17E5 /* WYRouterBaseHandler.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,17 +682,17 @@
 /* Begin PBXNativeTarget section */
 		1E05DDE589DDDD21BD5FE9E29C853577 /* WYRouter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F68FAFC33B1FCB7BD5D15CD96037F3CE /* Build configuration list for PBXNativeTarget "WYRouter" */;
+			buildConfigurationList = 9AABE72054186FE07FB13964A3721771 /* Build configuration list for PBXNativeTarget "WYRouter" */;
 			buildPhases = (
-				0DDA5A01CC3C1CE0704D2B2A3EA2CA3F /* Headers */,
-				065DC5B45F84AB9783741C8E635A1DF2 /* Sources */,
-				2934B6D9C9D921307183CC6ED0CFD577 /* Frameworks */,
+				5B21C89A647596F1DBE0B78AF149AAB3 /* Headers */,
+				EC261E5078A7197E106CC9ECBCE70EC1 /* Sources */,
+				491223955F39B025C14CF6CBF39B9009 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				04B78113DBB73F1B3301746C304B012B /* PBXTargetDependency */,
-				7B93D834498E45DBAF71EF3CAB55EF7B /* PBXTargetDependency */,
+				0AE95B5A65D44671AD539FD144CA0199 /* PBXTargetDependency */,
+				52A445331649450568DA2D40FEF7BD9D /* PBXTargetDependency */,
 			);
 			name = WYRouter;
 			productName = WYRouter;
@@ -859,19 +866,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		065DC5B45F84AB9783741C8E635A1DF2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C0B96A9042D281613F9901ED68C83ED5 /* ReplaceMe.m in Sources */,
-				B5E8F505D14625F51831C6C3FD1B5837 /* WYModuleModel.m in Sources */,
-				004E6B7FCC026B35201C8EE7617B2398 /* WYRouteConfig.m in Sources */,
-				64CA97554F693BFA2260C00CE4AD0600 /* WYRouter-dummy.m in Sources */,
-				FA53EE9DED86B19CCA0A600503CA5521 /* WYRouter.m in Sources */,
-				E6B6F693A2353EF1E6C5FE537BE66EB9 /* WYRouterBaseHandler.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2B3CD88FE9455E1BBBB766D7A613B306 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -926,26 +920,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC261E5078A7197E106CC9ECBCE70EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F15CC0686CB1FD0F10DA37EE9E1F0A8 /* DPLDeepLinkRouter+LBHandleSelector.m in Sources */,
+				51BC50E5479C62004B50004AF4BEA23D /* ReplaceMe.m in Sources */,
+				C58715D5FA8F30DA3A1A0D28BD669803 /* WYModuleModel.m in Sources */,
+				DB439F55294D1BFEB81D43482534F4CF /* WYRouteConfig.m in Sources */,
+				721ED7D9D4F775A6103453F2DFF8CE8E /* WYRouter-dummy.m in Sources */,
+				B6011004DB7D81AD8C191C326D4064BF /* WYRouter.m in Sources */,
+				C6B63697232018AE03F20A95B5F630B6 /* WYRouterBaseHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		04B78113DBB73F1B3301746C304B012B /* PBXTargetDependency */ = {
+		0AE95B5A65D44671AD539FD144CA0199 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DeepLinkKit;
 			target = 7EC5DFAB79138B1C6559E1A2E2B96764 /* DeepLinkKit */;
-			targetProxy = 5714165479C97A9F90CB88A44D0BDC12 /* PBXContainerItemProxy */;
+			targetProxy = 69BBDA62BF619A39D8AD303975DEBEA1 /* PBXContainerItemProxy */;
+		};
+		52A445331649450568DA2D40FEF7BD9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */;
+			targetProxy = 7D5DE5B8039EB9EA6D75CDD8F690DCA5 /* PBXContainerItemProxy */;
 		};
 		589E4E234557F4C44D23E461A8E7D4C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-WYRouter_Example";
 			target = F8F83441349BC7C4BB7C9691FC9EDE26 /* Pods-WYRouter_Example */;
 			targetProxy = 5FD616390D7C6CA3A354A80E926FC72D /* PBXContainerItemProxy */;
-		};
-		7B93D834498E45DBAF71EF3CAB55EF7B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JSONModel;
-			target = E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */;
-			targetProxy = F5A5F71DD774DFAE795CC789E72C13DE /* PBXContainerItemProxy */;
 		};
 		9537F9C485F33247703DBF9A36AD1255 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1062,31 +1070,6 @@
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7552351D4D0B5D32FEADDE4D1514DF6D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38CF7A99E9FE980182DED976710E9DB8 /* WYRouter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/WYRouter/WYRouter-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = WYRouter;
-				PRODUCT_NAME = WYRouter;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1294,9 +1277,9 @@
 			};
 			name = Debug;
 		};
-		DB4E386B0C35D6A579C4D42BC278FA99 /* Debug */ = {
+		C0D14F547BD979570E3276A17A753212 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38CF7A99E9FE980182DED976710E9DB8 /* WYRouter.xcconfig */;
+			baseConfigurationReference = 3B4DAA2853ECE52BAC16DB65AB194380 /* WYRouter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1317,6 +1300,31 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		EE1E07BCB861FEBD8A8376DE01CD1139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4DAA2853ECE52BAC16DB65AB194380 /* WYRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WYRouter/WYRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WYRouter;
+				PRODUCT_NAME = WYRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		F0EC078F9C185CDA2D377E34C250DEAA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1432,20 +1440,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		9AABE72054186FE07FB13964A3721771 /* Build configuration list for PBXNativeTarget "WYRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D14F547BD979570E3276A17A753212 /* Debug */,
+				EE1E07BCB861FEBD8A8376DE01CD1139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EEF375AC54A6DBD4A117B9D81840582E /* Build configuration list for PBXNativeTarget "Pods-WYRouter_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3C68397CBFF9F787CA1D3D1167F66C0 /* Debug */,
 				FD16271C69AE5FB72026FC0EDA93D071 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F68FAFC33B1FCB7BD5D15CD96037F3CE /* Build configuration list for PBXNativeTarget "WYRouter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DB4E386B0C35D6A579C4D42BC278FA99 /* Debug */,
-				7552351D4D0B5D32FEADDE4D1514DF6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -14,4 +14,9 @@
     Class class = NSClassFromString(@"SecondViewController");
     return [class new];
 }
+
+- (NSArray *)performSelector {
+    return @[@"test:"];
+}
+
 @end

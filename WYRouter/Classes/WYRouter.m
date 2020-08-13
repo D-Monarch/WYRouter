@@ -9,6 +9,8 @@
 #import "WYRouter.h"
 #import "WYModuleModel.h"
 #import "DeepLinkKit/DeepLinkKit.h"
+#import "NSString+DPLQuery.h"
+#import "DPLDeepLinkRouter+LBHandleSelector.h"
 
 @interface WYRouter ()
 /** 路由 */
@@ -83,7 +85,11 @@
         DPLMutableDeepLink *link = [[DPLMutableDeepLink alloc] initWithString:url];
         [link.queryParameters addEntriesFromDictionary:params]; //经DPLMutableDeepLink转化为&拼接形式连接
         
-        return [self handleWithURLString:link.URL.absoluteString complete:complete];
+        NSString *urlStr = link.URL.absoluteString;
+        if (![moduleId isEqualToString:kWebModuleId]) {
+            urlStr = [urlStr DPL_stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+        }
+        return [self handleWithURLString:urlStr complete:complete];
     }
     return NO;
 }
@@ -114,13 +120,12 @@
     if (urlString.length <= 0) {
         return NO;
     }
-    NSURL *url = [self urlWithString:urlString];
+    NSURL *url = [NSURL URLWithString:[urlString DPL_stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
+
     if ([@[@"http", @"https"] containsObject:url.scheme]) {
         
-        NSString *urlStr = [url.absoluteString stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]] ?: @"";
-
        return [self handleWithModuleId:kWebModuleId
-                                params:@{@"url" : urlStr}
+                                params:@{@"url" : urlString}
                               complete:complete];
 
     } else if ([url.scheme isEqualToString:_scheme]) {
@@ -144,19 +149,36 @@
     return route;
 }
 
+//
+///// Convert urlString to URL
+///// @param urlString url string
+//- (NSURL *)urlWithString:(NSString *)urlString {
+//
+//    if (urlString.length) {
+//      if (@available(iOS 9.0, *)) {
+//          return [NSURL URLWithString:[urlString stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]];
+//      } else {
+//          return [NSURL URLWithString:[urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
+//      }
+//    }
+//
+//    return nil;
+//}
 
-/// Convert urlString to URL
-/// @param urlString url string
-- (NSURL *)urlWithString:(NSString *)urlString {
-    
-    if (urlString.length) {
-      if (@available(iOS 9.0, *)) {
-          return [NSURL URLWithString:[urlString stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]];
-      } else {
-          return [NSURL URLWithString:[urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
-      }
-    }
+
+- (BOOL)handleSelWithMoudleId:(NSString *)moduleId
+                     selector:(NSString *)selector
+                       params:(NSDictionary *)params
+                     complete:(void(^)(BOOL handled, NSError *error))complete {
   
-    return nil;
+    if (moduleId) {
+          NSString *url = [self routeWithModuleId:moduleId];
+        
+        return [_router handleSelWithURLString:url
+                                      selector:selector
+                                       params:params
+                                     complete:complete];
+      }
+      return NO;
 }
 @end

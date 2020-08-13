@@ -25,6 +25,10 @@
 }
 
 
+- (NSArray *)performSelectors {
+    return nil;
+}
+
 - (UIViewController *)viewControllerForPresentingDeepLink:(DPLDeepLink *)deepLink {
     UIViewController *vc = [UIApplication sharedApplication].keyWindow.rootViewController;
     if ([vc isKindOfClass:[UITabBarController class]]) {

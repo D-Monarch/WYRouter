@@ -53,12 +53,12 @@
 }
 
 - (void)btnClick1 {
-//    [[WYRouter shareInstance] handleWithModuleId:@"SecondViewController"
-//                                          params:@{@"name" : @"旺旺"}
-//                                        complete:nil];
+    [[WYRouter shareInstance] handleWithModuleId:@"SecondViewController"
+                                          params:@{@"name" : @"旺旺"}
+                                        complete:nil];
     
-    NSString *urlString = @"wyy://auction/carDetail/12124123/1/12312312/旺旺";
-    [[WYRouter shareInstance] handleWithURLString:urlString complete:nil];
+//    NSString *urlString = @"wyy://auction/carDetail/12124123/1/12312312/旺旺";
+//    [[WYRouter shareInstance] handleWithURLString:urlString complete:nil];
 }
 
 
@@ -71,5 +71,9 @@
 
 - (void)btnClick3 {
     [[WYRouter shareInstance] handleWithURLString:@"https://www.baidu.com" complete:nil];
+}
+
+- (void)test:(NSString *)params {
+    NSLog(@"-----param-----%@", params);
 }
 @end
